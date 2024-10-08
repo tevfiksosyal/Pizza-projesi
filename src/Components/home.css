@@ -1,0 +1,14 @@
+.card {
+    text-align: center;
+    border: 3px solid blue;
+    background-image: url("./Assets/Iteration-1-assets/home-banner.png");
+    height: 1080px;
+    font-size: 2rem;
+}
+.card h1 {
+    color: white;
+}
+.card button {
+    background-color: yellow;
+    border-radius: 2rem;
+}
