@@ -1,14 +1,18 @@
 import React from 'react';
 
-export default function Kalinlik() {
+export default function Kalinlik({ onChange }) {
+  const handleChange = (event) => {
+    onChange(event.target.value);
+  };
+
   return (
     <div>
-        <h1>Hamur Seç*</h1>
-      <select>
-        <option value="0">-Hamur Kalınlığı Seç-</option>
-        <option value="1">ince</option>
-        <option value="2">Normal</option>
-        <option value="3">Kalın</option>
+      <h1>Hamur Seç*</h1>
+      <select onChange={handleChange}>
+        <option value="">-Hamur Kalınlığı Seç-</option>
+        <option value="ince">İnce</option>
+        <option value="normal">Normal</option>
+        <option value="kalın">Kalın</option>
       </select>
     </div>
   );

@@ -1,0 +1,36 @@
+.checkbox-form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+  }
+  
+  .form-header {
+    margin-bottom: 20px;
+    text-align: left; /* Soldan hizalama */
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .product-item {
+    width: 30%; /* Her satırda 3 ürün için */
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }

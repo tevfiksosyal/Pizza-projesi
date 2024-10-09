@@ -1,18 +1,25 @@
 import React from 'react';
+import './Boyut.css';
 
-export default function Boyut() {
+export default function Boyut({ onChange }) {
+  const handleChange = (event) => {
+    onChange(event.target.value);
+  };
+
   return (
     <div>
-      <p>Boyut Seç*</p>
+      <h1>Boyut Seç*</h1>
       <form>
-        <input type="radio" id="küçük" name="pizza_boyut" value="Küçük" />
-        <label htmlFor="küçük">Küçük</label><br />
-        
-        <input type="radio" id="orta" name="pizza_boyut" value="Orta" />
-        <label htmlFor="orta">Orta</label><br />
-        
-        <input type="radio" id="büyük" name="pizza_boyut" value="Büyük" />
-        <label htmlFor="büyük">Büyük</label>
+        <div className="radio-container">
+          <input type="radio" id="S" name="pizza_boyut" value="S" onChange={handleChange} />
+          <label htmlFor="S">S</label>
+
+          <input type="radio" id="M" name="pizza_boyut" value="M" onChange={handleChange} />
+          <label htmlFor="M">M</label>
+
+          <input type="radio" id="L" name="pizza_boyut" value="L" onChange={handleChange} />
+          <label htmlFor="L">L</label>
+        </div>
       </form>
     </div>
   );

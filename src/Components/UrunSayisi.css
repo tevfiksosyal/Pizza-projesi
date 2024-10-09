@@ -1,0 +1,19 @@
+.urun-sayisi-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #FDC913; /* Butonların arka plan rengi sarı */
+    font-size: 2rem; /* Butonların font boyutu */
+    border: none; /* Kenarları yok et */
+    padding: 10px 15px; /* İçerik boşluğu */
+    cursor: pointer; /* Fare ile üzerine gelindiğinde gösterilen işaretçi */
+  }
+  
+  .urun-sayisi {
+    margin: 0 15px; /* Sayı ile butonlar arasında boşluk */
+    font-size: 24px; /* Sayı font boyutu */
+  }
+  

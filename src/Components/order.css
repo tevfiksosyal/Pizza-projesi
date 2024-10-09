@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 550px;
+}
+.head {
+    background-color: #CE2829;
+    text-align: center;
+}
+.head h1 {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: left;
+    font-size: 1rem;
+    color: white;
+}
+h1 {
+    font-weight: 600;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+.point {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.form1 {
+    display: flex;
+    justify-content: space-between;
+}
+.form3 {
+    display: flex;
+    justify-content: space-between;
+}
+.toplam {
+    display: flex;
+    flex-direction: column;
+}

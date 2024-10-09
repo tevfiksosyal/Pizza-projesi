@@ -1,0 +1,9 @@
+.urun {
+    display: flex;
+    max-width: 1072px;
+    justify-content: space-between;
+}
+.derece {
+    display: flex;
+    justify-content: space-between;
+}

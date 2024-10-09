@@ -1,0 +1,101 @@
+/* Footer genel arka plan rengi ve düzen */
+.son {
+    background-color: #1A1A1A;
+    display: flex;
+    gap: 8rem; /* Sütunlar arası boşluk */
+  }
+  
+  /* Footer içindeki elemanların düzeni */
+  .footer-son {
+    display: flex;
+    justify-content: space-between; /* Elemanları aralarına boşluk koyarak hizalar */
+  }
+  
+  /* Navigasyon bağlantılarının stili */
+  .nav-son {
+    display: flex;
+    flex-direction: column; /* Dikey olarak hizala */
+    text-decoration: none;
+    color: white; /* Yazı rengi beyaz */
+  }
+  
+  /* Bağlantı stilleri */
+  .son-a {
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: white; /* Yazı rengi beyaz */
+    line-height: 1.5rem; /* Satır yüksekliği */
+    font-family: Barlow, sans-serif; /* Yazı tipi */
+    font-weight: 200; /* Yazı kalınlığı */
+    text-align: left; /* Yazı hizalaması */
+  }
+  
+  /* Başlık stili */
+  .son-ilk h1 {
+    color: white; /* Başlık rengi beyaz */
+    width: 8rem; /* Başlık genişliği */
+    font-family: 'Londrina Solid', cursive; /* Yazı tipi */
+    font-weight: 700; /* Yazı kalınlığı */
+    line-height: 3rem; /* Satır yüksekliği */
+    text-align: left; /* Yazı hizalaması */
+    margin: 2rem; /* Dış boşluk */
+  }
+  
+  /* Hot Menu bölümünün stili */
+  .son-iki {
+    color: white; /* Yazı rengi beyaz */
+    margin: 20px;
+  }
+  
+  /* Hot Menu başlığı */
+  .son-iki h1 {
+    font-family: Barlow, sans-serif; /* Yazı tipi */
+    font-weight: 500; /* Yazı kalınlığı */
+    line-height: 2rem; /* Satır yüksekliği */
+    text-align: left; /* Yazı hizalaması */
+    color: white;
+  }
+  
+  /* Hot Menu içerik paragrafları */
+  .son-iki p {
+    font-family: Barlow, sans-serif; /* Yazı tipi */
+    font-weight: 200; /* Yazı kalınlığı */
+    line-height: 32.4px; /* Satır yüksekliği */
+    text-align: left; /* Yazı hizalaması */
+  }
+  
+  /* Instagram bölümünün stili */
+  .son-uc {
+    color: white; /* Yazı rengi beyaz */
+    width: 25rem; /* Genişlik */
+    margin: 4rem; /* Dış boşluk */
+  }
+  
+  /* Instagram başlığı */
+  .son-uc h1 {
+    margin: 2.5rem 0; /* Dış boşluk */
+    font-family: Barlow, sans-serif; /* Yazı tipi */
+    font-size: 2rem; /* Yazı boyutu */
+    font-weight: 500; /* Yazı kalınlığı */
+    line-height: 2rem; /* Satır yüksekliği */
+    text-align: left; /* Yazı hizalaması */
+    color: white;
+  }
+  
+  /* Alt footer alanı */
+  .footer-icon {
+    background-color: #1A1A1A; /* Arka plan rengi */
+    display: flex; /* Flex düzen */
+    gap: 8rem; /* Boşluk */
+    color: white; /* Yazı rengi beyaz */
+    border-top: solid 1px white; /* Üst kenar çizgisi */
+  }
+  .foot {
+    max-width: 1072px;
+    margin: 0 auto;
+  }
+  .son-uc-img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: space-between;
+  }

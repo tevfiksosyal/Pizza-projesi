@@ -1,0 +1,123 @@
+.Card {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1072px;
+    margin: 60px auto;
+  }
+  
+  .leftside {
+    background-image: url('./Assets/iteration-2-aseets/cta/kart-1.png'); /* Düzeltildi */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 1rem;
+    padding: 30px; /* İçerik için boşluk eklendi */
+  }
+  
+  .baslik-lezzetus {
+    max-width: 300px;
+    font-family: Quattrocento;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: #FFFFFF;
+    margin: 20px;
+  }
+  
+  .baslik-position {
+    font-family: Barlow;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 26.76px;
+    margin: 20px;
+    color: #FFFFFF;
+  }
+  
+  .btn2 { 
+    height: 48px;
+    padding: 3px 18px;
+    border-radius: 50px;
+    color: #CE2829;
+    margin: 20px;
+  }
+  
+  .rightside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .kart2, .kart3 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .kart2 {
+    background: url('./Assets/iteration-2-aseets/cta/kart-2.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .kart2 h1{
+    max-width: 200px;
+    font-size: 2rem;
+    margin: 20px;
+    line-height: 3.5rem;
+    color: white;
+  }
+  .kart3 h1 {
+    max-width: 200px;
+    font-size: 2rem;
+    margin: 20px;
+    line-height: 2.5rem;
+    color: black;
+  }
+  .kart3 {
+    background: url('./Assets/iteration-2-aseets/cta/kart-3.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+  }
+  
+  .ozel {
+    color: #D80027;
+  }
+  
+  .yazi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .yazi h1 {
+    font-family: Satisfy;
+    font-size: 2rem;
+    font-weight: 590;
+    text-align: center;
+    color: #CE2829;
+    margin: 0;
+  }
+  
+  .yazi h2 {
+    font-family: Barlow;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 56.2px;
+    text-align: center;
+    margin: 0;
+  }
+  

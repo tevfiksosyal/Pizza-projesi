@@ -1,0 +1,25 @@
+.radio-container {
+    display: flex;
+    gap: 30px; /* Butonlar arasındaki boşluk */
+    align-items: center; /* Dikey hizalama */
+    justify-content: space-between;
+  }
+  
+  /* Sadece Boyut bileşeni için stil uygulama */
+  .radio-container input[type="radio"] {
+    display: none; /* Radio butonlarını gizle */
+  }
+  
+  .radio-container label {
+    cursor: pointer; /* Etiketler üzerine gelindiğinde imleç değişsin */
+    padding: 5px 10px; /* Butonların görünümünü iyileştir */
+    border: 1px solid #ccc; /* Kenar çizgisi */
+    border-radius: 15px; /* Köşeleri yuvarla */
+    font-size: 1.3rem;
+  }
+  
+  .radio-container input[type="radio"]:checked + label {
+    background-color: #FFEECC; /* Seçili durumda arka plan rengi */
+    color: black; /* Seçili durumda metin rengi */
+  }
+  
