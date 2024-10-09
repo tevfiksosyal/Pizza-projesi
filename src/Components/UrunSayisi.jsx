@@ -7,7 +7,7 @@ const UrunSayisi = ({ onChange }) => {
   const artir = () => {
     setUrunSayisi(prevSayisi => {
       const yeniSayisi = prevSayisi + 1;
-      onChange(yeniSayisi); // Güncel ürün sayısını gönder
+      onChange(yeniSayisi);
       return yeniSayisi;
     });
   };
@@ -16,13 +16,12 @@ const UrunSayisi = ({ onChange }) => {
     if (urunSayisi > 1) {
       setUrunSayisi(prevSayisi => {
         const yeniSayisi = prevSayisi - 1;
-        onChange(yeniSayisi); // Güncel ürün sayısını gönder
+        onChange(yeniSayisi);
         return yeniSayisi;
       });
     }
   };
 
-  // useEffect ile güncel urunSayisi'ni parent bileşene ilet
   useEffect(() => {
     onChange(urunSayisi);
   }, [urunSayisi, onChange]);

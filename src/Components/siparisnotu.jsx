@@ -14,7 +14,7 @@ const SiparisFormu = () => {
         value={siparisNotu}
         onChange={handleInputChange}
         placeholder="Siparişine eklemek istediğin bir not var mı?"
-        style={{ width: '100%', maxWidth: '100%', boxSizing: 'border-box' }} // Genişliği ayarladık
+        style={{ width: '100%', maxWidth: '100%', boxSizing: 'border-box' }}
       />
     </div>
   );

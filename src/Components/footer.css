@@ -1,93 +1,82 @@
-/* Footer genel arka plan rengi ve düzen */
 .son {
     background-color: #1A1A1A;
     display: flex;
-    gap: 8rem; /* Sütunlar arası boşluk */
+    gap: 8rem;
   }
   
-  /* Footer içindeki elemanların düzeni */
   .footer-son {
     display: flex;
-    justify-content: space-between; /* Elemanları aralarına boşluk koyarak hizalar */
+    justify-content: space-between; 
   }
   
-  /* Navigasyon bağlantılarının stili */
   .nav-son {
     display: flex;
-    flex-direction: column; /* Dikey olarak hizala */
+    flex-direction: column; 
     text-decoration: none;
-    color: white; /* Yazı rengi beyaz */
+    color: white; 
   }
-  
-  /* Bağlantı stilleri */
+
   .son-a {
-    text-decoration: none; /* Alt çizgiyi kaldır */
-    color: white; /* Yazı rengi beyaz */
-    line-height: 1.5rem; /* Satır yüksekliği */
-    font-family: Barlow, sans-serif; /* Yazı tipi */
-    font-weight: 200; /* Yazı kalınlığı */
-    text-align: left; /* Yazı hizalaması */
+    text-decoration: none; 
+    color: white; 
+    line-height: 1.5rem; 
+    font-family: Barlow, sans-serif;
+    font-weight: 200; 
+    text-align: left; 
   }
   
-  /* Başlık stili */
   .son-ilk h1 {
-    color: white; /* Başlık rengi beyaz */
-    width: 8rem; /* Başlık genişliği */
-    font-family: 'Londrina Solid', cursive; /* Yazı tipi */
-    font-weight: 700; /* Yazı kalınlığı */
-    line-height: 3rem; /* Satır yüksekliği */
-    text-align: left; /* Yazı hizalaması */
-    margin: 2rem; /* Dış boşluk */
+    color: white; 
+    width: 8rem; 
+    font-family: 'Londrina Solid', cursive; 
+    font-weight: 700; 
+    line-height: 3rem; 
+    text-align: left; 
+    margin: 2rem; 
   }
   
-  /* Hot Menu bölümünün stili */
   .son-iki {
-    color: white; /* Yazı rengi beyaz */
+    color: white; 
     margin: 20px;
   }
   
-  /* Hot Menu başlığı */
   .son-iki h1 {
-    font-family: Barlow, sans-serif; /* Yazı tipi */
-    font-weight: 500; /* Yazı kalınlığı */
-    line-height: 2rem; /* Satır yüksekliği */
-    text-align: left; /* Yazı hizalaması */
+    font-family: Barlow, sans-serif; 
+    font-weight: 500; 
+    line-height: 2rem; 
+    text-align: left; 
     color: white;
   }
   
-  /* Hot Menu içerik paragrafları */
   .son-iki p {
-    font-family: Barlow, sans-serif; /* Yazı tipi */
-    font-weight: 200; /* Yazı kalınlığı */
-    line-height: 32.4px; /* Satır yüksekliği */
-    text-align: left; /* Yazı hizalaması */
+    font-family: Barlow, sans-serif; 
+    font-weight: 200; 
+    line-height: 32.4px; 
+    text-align: left; 
   }
   
-  /* Instagram bölümünün stili */
   .son-uc {
-    color: white; /* Yazı rengi beyaz */
-    width: 25rem; /* Genişlik */
-    margin: 4rem; /* Dış boşluk */
+    color: white; 
+    width: 25rem; 
+    margin: 4rem; 
   }
   
-  /* Instagram başlığı */
   .son-uc h1 {
-    margin: 2.5rem 0; /* Dış boşluk */
-    font-family: Barlow, sans-serif; /* Yazı tipi */
-    font-size: 2rem; /* Yazı boyutu */
-    font-weight: 500; /* Yazı kalınlığı */
-    line-height: 2rem; /* Satır yüksekliği */
-    text-align: left; /* Yazı hizalaması */
+    margin: 2.5rem 0; 
+    font-family: Barlow, sans-serif; 
+    font-size: 2rem; 
+    font-weight: 500; 
+    line-height: 2rem; 
+    text-align: left;
     color: white;
   }
   
-  /* Alt footer alanı */
   .footer-icon {
-    background-color: #1A1A1A; /* Arka plan rengi */
-    display: flex; /* Flex düzen */
-    gap: 8rem; /* Boşluk */
-    color: white; /* Yazı rengi beyaz */
-    border-top: solid 1px white; /* Üst kenar çizgisi */
+    background-color: #1A1A1A;
+    display: flex; 
+    gap: 8rem;
+    color: white; 
+    border-top: solid 1px white; 
   }
   .foot {
     max-width: 1072px;

@@ -6,7 +6,7 @@
   
   .form-header {
     margin-bottom: 20px;
-    text-align: left; /* Soldan hizalama */
+    text-align: left;
   }
   
   h1 {
@@ -27,7 +27,7 @@
   }
   
   .product-item {
-    width: 30%; /* Her satırda 3 ürün için */
+    width: 30%;
     margin-bottom: 10px;
   }
   
